@@ -1,11 +1,55 @@
+/* Universal Css */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    background-image: url("images/overlay.png"),
+        linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+}
+
+.container {
+    padding: 0px 85px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+hr {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.heading {
+    color: #636363;
+    font-size: 2em;
+    font-weight: 200;
+    letter-spacing: -0.025em;
+}
+
+p {
+    font-weight: 300;
+    line-height: 1.65;
+}
+
+.btn {
+    padding: 13px 40px;
+    text-decoration: none;
+    color: #636363;
+    border: 1px solid #636363;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(99, 99, 99, 0.1);
+}
+
+/* Start intro css */
 .intro {
-    background-color: #5f4d93;
     height: 520px;
     display: flex;
     flex-direction: column;
@@ -34,4 +78,21 @@
 
 .intro p a:hover {
     text-decoration: none;
+}
+
+/* Start head css */
+.head {
+    height: 530px;
+    display: flex;
+    align-items: center;
+}
+
+.head-text h1 {
+    padding: 25px 0;
+}
+
+.head-img img {
+    border-radius: 100%;
+    border: 1px solid #636363;
+    padding: 15px;
 }
