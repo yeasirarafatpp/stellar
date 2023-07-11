@@ -18,8 +18,9 @@ body {
 }
 
 hr {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
+    color: #dddddd;
 }
 
 .heading {
@@ -95,4 +96,69 @@ p {
     border-radius: 100%;
     border: 1px solid #636363;
     padding: 15px;
+}
+
+/* Magna Start */
+.magna p {
+    text-align: center;
+    padding: 20px 0 60px 0;
+}
+
+.magna-head h1 {
+    text-align: center;
+    padding: 90px 0 50px 0;
+}
+
+.magna-icons {
+    display: flex;
+    margin: 0 70px;
+    text-align: center;
+}
+
+.magna-icons h4 {
+    font-size: 1.25em;
+    color: #636363;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.magna-icons p {
+    width: 90%;
+    line-height: 30px;
+}
+
+.magna-one i {
+    font-size: 80px;
+    border: solid 1px;
+    color: #efa8b0;
+    border-color: #dddddd;
+    border-radius: 100%;
+    padding: 0.65em;
+    outline: 1px solid #dddddd;
+    outline-offset: -15px;
+    margin-bottom: 35px;
+}
+
+.magna-two i {
+    font-size: 80px;
+    border: solid 1px;
+    color: #a89cc8;
+    border-color: #dddddd;
+    border-radius: 100%;
+    padding: 0.65em;
+    outline: 1px solid #dddddd;
+    outline-offset: -15px;
+    margin-bottom: 35px;
+}
+
+.magna-three i {
+    font-size: 80px;
+    border: solid 1px;
+    color: #8cc9f0;
+    border-color: #dddddd;
+    border-radius: 100%;
+    padding: 0.65em;
+    outline: 1px solid #dddddd;
+    outline-offset: -15px;
+    margin-bottom: 35px;
 }
