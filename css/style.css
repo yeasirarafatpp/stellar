@@ -125,6 +125,7 @@ p {
 .magna-icons p {
     width: 90%;
     line-height: 30px;
+    padding-left: 30px;
 }
 
 .magna-one i {
@@ -161,4 +162,71 @@ p {
     outline: 1px solid #dddddd;
     outline-offset: -15px;
     margin-bottom: 35px;
+}
+
+/* Start portfolio */
+.portfolio-header h1 {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.portfolio-header p {
+    text-align: center;
+    font-size: 1.25em;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.port-icons {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 45px;
+}
+
+.port-icons i {
+    font-size: 45px;
+}
+
+.port-icon-one {
+    background-color: #efa8b0;
+    text-align: center;
+    padding: 45px 60px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.port-icon-two {
+    background-color: #c79cc8;
+    text-align: center;
+    padding: 45px 60px;
+}
+
+.port-icon-three {
+    background-color: #a89cc8;
+    text-align: center;
+    padding: 45px 60px;
+}
+
+.port-icon-four {
+    background-color: #9bb2e1;
+    text-align: center;
+    padding: 45px 60px;
+}
+
+.port-icon-five {
+    text-align: center;
+    background-color: #8cc9f0;
+    padding: 45px 60px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+p.desc {
+    columns: 2;
+    column-gap: 80px;
+    font-size: 18px;
+    line-height: 35px;
+    color: #636363;
+    padding: 25px 0;
 }
