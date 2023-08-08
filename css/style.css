@@ -231,10 +231,11 @@ p.desc {
     padding: 25px 0;
 }
 
-/* Start Footer */
+/* Start Footer button */
 
 .foot-button {
     text-align: center;
+    padding-bottom: 100px;
 }
 
 .foot-button h1 {
@@ -258,4 +259,85 @@ p.desc {
     margin-top: 15px;
     border-radius: 10px;
     margin-right: 20px;
+}
+
+/* Start Footer */
+.footer {
+    padding: 100px 85px 140px 85px;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 60px;
+    color: #ffffff;
+}
+
+.footer-left h3 {
+    font-size: 25px;
+    padding: 25px 0;
+    font-weight: 200;
+}
+
+.footer-left p {
+    font-size: 16px;
+    padding-bottom: 25px;
+}
+
+.footer-btn {
+    padding: 13px 40px;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.footer-right h3 {
+    font-size: 25px;
+    padding: 25px 0;
+    font-weight: 200;
+}
+
+.footer-right p {
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.foot-info {
+    font-weight: normal;
+    margin-left: 20px;
+}
+
+.foot-info a {
+    color: white;
+    text-decoration: underline dotted;
+}
+
+.foot-info a:hover {
+    text-decoration: none;
+}
+
+.social ul {
+    display: grid;
+    grid-template-columns: repeat(5, 55px);
+}
+
+.social ul li {
+    list-style: none;
+}
+
+.social ul li a {
+    color: white;
+    font-size: 30px;
+    padding-top: 30px;
+    display: inline-block;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+    font-size: 16px;
 }
