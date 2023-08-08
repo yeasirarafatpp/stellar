@@ -230,3 +230,32 @@ p.desc {
     color: #636363;
     padding: 25px 0;
 }
+
+/* Start Footer */
+
+.foot-button {
+    text-align: center;
+}
+
+.foot-button h1 {
+    padding: 80px 0;
+}
+
+.foot-button p {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 19px;
+    padding-bottom: 50px;
+}
+
+.btn-one {
+    padding: 13px 40px;
+    text-decoration: none;
+    background-color: #8cc9f0;
+    color: #ffffff;
+    border: 1px solid #8cc9f0;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
